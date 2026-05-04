@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset= "UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>tugas.informatika.kelompok.2</title> 
+      <style>
+     * { box-sizing: border-box; 
+         margin: 0px;
+         padding: 0px; 
+         font-family: sans-serif ;
+       }
+
+       header {
+         height: 200px ;
+         width: 100% ;
+         
+        
+         background-image:
+          linear-gradient(rgba(66, 5, 84, 0.621), rgba(252, 122, 213, 0.616)),
+          url('fotokelas1.jpeg');
+
+         background-size:cover;
+         background-position: center;
+
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         color: white;
+         text-align: center;
+          
+       }
+
+       header h1 {
+        font-size: 28px;
+        margin-bottom: 10px;
+       }
+
+       .gataucuk {
+        text-align: center;
+        padding: 0px 0px ;
+       }
+
+       .gataucuk h3 {
+        background: rgba(199, 18, 172, 0.797);
+        color: azure;
+        padding: 5px;
+        margin-bottom: 20px;
+       }
+
+       .jadwal { 
+        width: 70%;
+        max-width: 700px;
+        margin: 30px auto;
+       }
+
+       .day {
+        background: #ffff;
+        border-radius: 10%;
+        padding: 15px;
+        margin-bottom: 25px;
+        box-shadow: #423347a5;
+       }
+
+       .day h4 {
+        text-align:center;
+        margin-bottom: 10%;
+        color: #423345;
+       }
+
+       table {
+        width: 100%;
+        border-collapse: collapse;
+       }
+
+       td {
+        padding: 10px;
+        border-bottom: 1px solid #3b3b3b;
+       }
+
+       td:hover {
+        background: #7373a0;
+       }
+
+       .reveal {
+        opacity: 0;
+        transform: translateY(40px);
+        transition: all 0.7s ease;
+       }
+
+       .reveal.active {
+        opacity: 1;
+        transform: translateY(0);
+       }
+
+       .buttonstyle{
+        width: 250px;
+        padding: 15px;
+        text-align: center;
+
+        background: #ffff;
+        color: rgba(48, 44, 59, 0.797);
+        text-decoration: none;
+
+        border-radius: 12px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.37);
+
+        transition: 0.3s;
+       }
+       .buttonstyle:hover{ 
+        background: #bcbafd;
+        transform: translateY(-5px);
+       }
+
+       .menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 110px;
+        gap: 20px;
+       }
+
+       footer { 
+        margin-top: 50px;
+        background: rgba(162, 23, 146, 0.797);
+        color: aliceblue;
+        text-align: center;
+        padding: 10px;
+       }
+
+
+      </style>
+      
+    </head>
+    <body>
+
+        <header class="header">
+            <H1> Welcome To Class XI.B </H1>
+            <p> "B-nya berkelas" </p>
+        </header>
+        
+        <section class="gataucuk">
+          <h3> jadwal pelajaran </h3>
+        </section>
+
+        <div class="day reveal">
+            <h4>Senin</h4>
+             <table>
+                <tr><td>Fisika</td></tr>
+                <tr><td>Fisika</td></tr>
+                <tr><td>Kemuhammadiyahan</td></tr>
+                <tr><td>Istirhat</td></tr>
+                <tr><td>Biologi</td></tr>
+                <tr><td>Biologi</td></tr>
+                <tr><td>Biologi</td></tr>
+                <tr><td>Sejarah</td></tr>
+                <tr><td>Istirahat</td></tr>
+                <tr><td>Sejarah</td></tr>
+                <tr><td>Kimia</td></tr>
+                <tr><td>Kimia</td></tr>
+                <tr><td>Exstrakulikuler</td></tr>
+             </table>
+
+             <h4>Selasa</h4>
+             <table>
+                <tr><td>Informatika</td></tr>
+                <tr><td>Informatika</td></tr>
+                <tr><td>Informatika</td></tr>
+                <tr><td>Matematika Wajib</td></tr>
+                <tr><td>Istirhat</td></tr>
+                <tr><td>Matematika Lanjut</td></tr>
+                <tr><td>Matematika Lanjut</td></tr>
+                <tr><td>Bahasa Indonesia</td></tr>
+                <tr><td>Istirahat</td></tr>
+                <tr><td>Bahasa Indonesia</td></tr>
+                <tr><td>Bahasa Indonesia</td></tr>
+                <tr><td>Kemuhammadiyahan</td></tr>
+                <tr><td>Exstrakulikuler</td></tr>
+             </table>
+
+             <h4>Rabu</h4>
+              <table>
+                <tr><td>Fisika</td></tr>
+                <tr><td>Fisika</td></tr>
+                <tr><td>Penjaskes</td></tr>
+                <tr><td>Penjaskes</td></tr>
+                <tr><td>Istirhat</td></tr>
+                <tr><td>Kimia</td></tr>
+                <tr><td>Kimia</td></tr>
+                <tr><td>Biologi</td></tr>
+                <tr><td>Biologi</td></tr>
+                <tr><td>Istirahat</td></tr>
+                <tr><td>PAK</td></tr>
+                <tr><td>Pengajian</td></tr>
+                <tr><td>Pengajian</td></tr>
+                <tr><td>Exstrakulikuler</td></tr>
+              </table>
+
+             <h4>Kamis</h4>
+              <table>
+                <tr><td>Bahasa Lampung</td></tr>
+                <tr><td>Bahasa Lampung</td></tr>
+                <tr><td>Seni Budaya</td></tr>
+                <tr><td>Seni Budaya</td></tr>
+                <tr><td>Istirhat</td></tr>
+                <tr><td>Matematika Wajib</td></tr>
+                <tr><td>Matematika Wajib</td></tr>
+                <tr><td>Matematika Wajib</td></tr>
+                <tr><td>Istirahat</td></tr>
+                <tr><td>Bahasa Inggris</td></tr>
+                <tr><td>Bahasa Inggris</td></tr>
+                <tr><td>Bahasa Inggris</td></tr>
+                <tr><td>Exstrakulikuler</td></tr>
+              </table>
+
+
+             <h4>Jumat</h4>
+              <table>
+                <tr><td>Al Islam</td></tr>
+                <tr><td>Al Islam</td></tr>
+                <tr><td>Bahasa Arab</td></tr>
+                <tr><td>Istirhat</td></tr>
+                <tr><td>Bahasa Arab</td></tr>
+                <tr><td>PKN</td></tr>
+                <tr><td>PKN</td></tr>
+             </table>
+
+
+        </div>
+          
+        <div class="menu">
+         <a href="index.html" class="buttonstyle"> kembali </a>
+                 
+         </div>
+
+         <script>
+           function revealOnScroll() {
+                  const reveals = document.querySelectorAll(".reveal");
+
+           reveals.forEach((el, i) => {
+                  const elementTop = el.getBoundingClientRect().top;
+                  const windowHeight = window.innerHeight;
+
+            if (elementTop < windowHeight - 100) {
+               setTimeout(() => {
+                    el.classList.add("active");
+                  }, i * 150);
+                }
+             });
+            }
+
+            window.addEventListener("scroll", revealOnScroll);
+            revealOnScroll();
+         </script>
+        
+         <footer>
+          <p> *.⋆ ˚｡⋆୨made from heart, kelompok 2୧⋆ ˚｡⋆.*</p>
+         </footer>
+    </body>
+</html>
